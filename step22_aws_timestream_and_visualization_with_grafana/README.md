@@ -145,6 +145,12 @@
    ```
 
 10. Deploy the app using `cdk deploy`
+11. For visulization naviagte to grafana console or grafana cloud
+
+- Login to Grafana
+- Naviagte to plugins and install Amazon timestream
+- Add new data source select time stream and add cradentials
+- Create new dashboard and add required panels.
 
 ---
 
