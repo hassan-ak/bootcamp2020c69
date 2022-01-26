@@ -16,12 +16,31 @@ AWS have multiple databases
 - TimestreamDB
   - Time series data compatable
   - Serverless
-  - It is a relational database
+  - It is not a relational database
   - Auto Scalebale
   - Can be integrated with other services
   - Latest data stored in RAM and then to multiple storages and old data is backed up
+  - Real time SQL query database
+  - Key Concepts of timestream database
+    - Time Series
+    - Record
+      - Can only update data and cant delete or update data
+    - Dimensions
+      - Can have max of 128 dimensions
+    - Measure
+      - Measure name relates to some measure value
+      - 1024 measures a table
+    - Timestamp
+    - Table
+    - Database
 
 ### Reading Material
+
+- [AWS Timestream Introduction with Apple HealthKit, Grafana and AWS CDK](https://jason-wiker.medium.com/aws-timestream-introduction-with-apple-healthkit-grafana-and-aws-cdk-ccf7baeaaa98)
+- [Getting Started with Amazon Timestream](https://www.youtube.com/watch?v=8RHFPNReylI&ab_channel=AmazonWebServices)
+- [amazon-timestream-tools](https://github.com/awslabs/amazon-timestream-tools/tree/mainline/sample_apps/js)
+- [What Is Amazon Timestream?](https://docs.aws.amazon.com/timestream/latest/developerguide/what-is-timestream.html)
+- [Grafana](https://grafana.com/get/)
 
 ### Sections
 
