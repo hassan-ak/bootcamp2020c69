@@ -4,7 +4,7 @@ const https = require('https');
 exports.handler = async (event: any) => {
   const body = JSON.parse(event.body);
   try {
-    /**
+    /*
      * Recommended Timestream write client SDK configuration:
      *  - Set SDK retry count to 10.
      *  - Use SDK DEFAULT_BACKOFF_STRATEGY
