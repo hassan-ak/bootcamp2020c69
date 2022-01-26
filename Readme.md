@@ -2,6 +2,27 @@
 
 ## Timestream DB and Visualization with Grafana
 
+### Class Notes
+
+AWS have multiple databases
+
+- DynamoDB
+  - Good for serverless model not that good
+- DocumentDB
+  - Compatable with mangoDB
+- RDS
+  - Compatable with MySQL
+  - Aurora Serverless
+- TimestreamDB
+  - Time series data compatable
+  - Serverless
+  - It is a relational database
+  - Auto Scalebale
+  - Can be integrated with other services
+  - Latest data stored in RAM and then to multiple storages and old data is backed up
+
+### Reading Material
+
 ### Sections
 
 - [AWS Timestream and Visualization with grafana](./step22_aws_timestream_and_visualization_with_grafana)
